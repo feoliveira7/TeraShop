@@ -14,7 +14,6 @@ fetch('produtos.json').then(resposta => resposta.json()).then(corpo =>{
     document.getElementById('nomeProduto3').innerHTML = corpo.nomeProduto3;
     document.getElementById('ValorProduto3').innerHTML = corpo.valorProduto3;
 
-    document.getElementById('imageProduto4').src = corpo.imageProduto4;
     document.getElementById('nomeProduto4').innerHTML = corpo.nomeProduto4;
     document.getElementById('ValorProduto4').innerHTML = corpo.valorProduto4;
 
