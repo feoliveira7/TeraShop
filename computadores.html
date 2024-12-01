@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeraShop</title>
+    <link rel="stylesheet" href="css/computadores.css">
+    <link rel="icon" href="img/iconTeraShop2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="headerClass">
+
+        <div class="logo">
+
+            <img onclick="location.href='index.html'" class="logoTera" src="img/2.png" alt="">
+
+        </div>
+
+        <div class="searchBarDiv">
+
+            <input type="text" id="iconSearchInput" class="searchInput" placeholder="Pesquisar produtos">
+
+        </div>
+
+
+        <div class="ContaDiv">
+
+            <div class="buttonsContas">
+
+                <p class="btnConta1"><span class="spanButtonEntrar">Entre</span>  ou</p>
+                <p class="btnConta2">Crie sua conta</p>
+
+            </div>
+
+            <img class="contaIcon" src="img/account.png" alt="">
+
+        </div>
+
+
+        <div class="carrinhoDiv">
+
+            <img class="iconeCarrinho" src="img/carrinho-de-compras.png" alt="">
+
+        </div>
+
+    </header>
+
+
+    <nav class="navbar">
+
+        <div class="fundoCategorias">
+
+            <div onclick="location.href='#containerCategorias'" class="btnCategoria1"><img class="imgBtnCategoria1" src="img/menu.png" alt=""><p class="textBtnCategoria1">TODAS AS CATEGORIAS</p></div>
+
+            <div onclick="location.href='#containerPromocoes'" class="btnCategoria2"><p class="textBtnCategoria2">PROMOÇÕES</p></div>
+
+            <div class="btnCategoria3"><p class="textBtnCategoria3">COMPUTADORES</p></div>
+
+            <div class="btnCategoria4"><p class="textBtnCategoria4">PERIFÉRICOS</p></div>
+
+            <div class="btnCategoria5"><p class="textBtnCategoria5">HARDWARE</p></div>
+
+            <div class="btnCategoria6"><p class="textBtnCategoria6">TODOS OS ELETRÔNICOS</p></div>
+
+            <div class="btnCategoria7"> <img class="imgBtnCategoria7" src="img/starPrime.png" alt=""> <p class="textBtnCategoria7">TERAPRIME</p></div>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <div class="banner">
+            <img class="bannerPC" src="img/bannerPCpage.jpg" alt="">
+        </div>
+
+        <div class="categoriaName">
+            <p class="titleCategoria">Computadores</p>
+        </div>
+        
+
+        <div class="containerGeral">
+
+            <div class="divFiltros">
+                <div class="fundoFiltros">
+                    <h1 class="titleFiltros">Outras categorias</h1>
+
+                    <div class="groupLinks">
+                        <p class="linkFiltro">Hardwares</p>
+                        <p class="linkFiltro">Placa de vídeo</p>
+                        <p class="linkFiltro">Cadeiras gamer</p>
+                        <p class="linkFiltro">Cabos e adaptadores</p>
+                        <p class="linkFiltro">Gabinetes</p>
+                    </div>
+
+                    <hr class="spaceLine3">
+
+                    <div class="groupFiltros">
+
+                        <div class="filtrosLinha1">
+                            <div class="groupNameFiltro">
+                                <img class="imgFiltro" src="img/truck.png" alt=""> <p class="nomeFiltro">Frete Grátis</p>
+                            </div>
+
+                            <div class="groupButton">
+                                <div class="buttonFiltro">
+                                    <div class="ballButtonFiltro"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filtrosLinha1">
+                            <div class="groupNameFiltro">
+                                <img class="imgFiltro" src="img/fire.png" alt=""> <p class="nomeFiltro">Em oferta</p>
+                            </div>
+
+                            <div class="groupButton">
+                                <div class="buttonFiltro">
+                                    <div class="ballButtonFiltro"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="filtrosLinha1">
+                            <div class="groupNameFiltro">
+                                <img class="imgFiltro" src="img/star.png" alt=""> <p class="nomeFiltro">TeraPrime</p>
+                            </div>
+
+                            <div class="groupButton">
+                                <div class="buttonFiltro">
+                                    <div class="ballButtonFiltro"></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+                 
+            <div class="divCatalogo">
+
+                <div class="containerBusca" style="display: flex; align-items: center;" >
+                    <input type="text" id="iconCatalogSearchInput" class="catalogSearchInput" placeholder="Buscar nos resultados">
+
+                    <button class="botaoRelevancia"><p class="textRelevancia">Em Destaque</p><img class="imgRelevancia" src="img/right-down.png" alt=""></button>
+                </div>
+
+
+                <div class="catalogContainer">
+                    <div class="line1Ctalog">
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto1" class="imgProduto" src="" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto1" class="nomeProduto"></p>
+                                <p id="ValorProduto1" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto2" src="img/AsusVivobook16.png" width="170px" height="120px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto2" class="nomeProduto"></p>
+                                <p id="ValorProduto2" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto3" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto3" class="nomeProduto"></p>
+                                <p id="ValorProduto3" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto4" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto4" class="nomeProduto"></p>
+                                <p id="ValorProduto4" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="line1Ctalog">
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto5" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto5" class="nomeProduto"></p>
+                                <p id="ValorProduto5" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto6" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto6" class="nomeProduto"></p>
+                                <p id="ValorProduto6" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto7" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto7" class="nomeProduto"></p>
+                                <p id="ValorProduto7" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto8" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto8" class="nomeProduto"></p>
+                                <p id="ValorProduto8" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="line1Ctalog">
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto9" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto9" class="nomeProduto"></p>
+                                <p id="ValorProduto9" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto10" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto10" class="nomeProduto"></p>
+                                <p id="ValorProduto10" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto11" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto11" class="nomeProduto"></p>
+                                <p id="ValorProduto11" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto12" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto12" class="nomeProduto"></p>
+                                <p id="ValorProduto12" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="line1Ctalog">
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto13" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto13" class="nomeProduto"></p>
+                                <p id="ValorProduto13" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto14" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto14" class="nomeProduto"></p>
+                                <p id="ValorProduto14" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto15" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto15" class="nomeProduto"></p>
+                                <p id="ValorProduto15" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                        <div class="produtoFrame">
+                            <div class="stars">
+                                <img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt=""><img class="rateImg" src="img/starRate.png" alt="">
+                                <p class="rateTxt">(00)</p>
+                            </div>
+                            <div class="imageProduto">
+                                <img id="imageProduto16" src="img/AsusVivobook16.png" width="170px" height="170px" alt="">
+                            </div>
+                            <div class="produtoInfos">
+                                <p id="nomeProduto16" class="nomeProduto"></p>
+                                <p id="ValorProduto16" class="valorProduto">R$1.590,00</p>
+                                <p class="subValorProduto">Á vista no PIX.</p>
+                            </div>
+                            <div class="containerBotaoCompra">
+                                <p class="buttonComprar">COMPRAR</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="pageSkipper">
+                        <div class="page1button">1</div>
+                        <div class="page2button">2</div>
+                        <div class="pageSkipButton">></div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footerHome">
+
+        <div class="containerInfosFooter1">
+            <div class="boxInfo1Footer">
+                <h1 class="boxInfoTitle">INSTITUCIONAL</h1>
+
+                <div class="groupLinksBox1">
+                    <p class="linkBox1" onclick="location.href='about.html'">> Quem somos</p>
+                    <p class="linkBox1">> Políticas de Privacidade</p>
+                    <p class="linkBox1">> Código de defesa do consumidor</p>
+                    <p class="linkBox1">> Segurança e Privacidade</p>
+                </div>
+            </div>
+
+            <div class="boxInfo2Footer">
+                <h1 class="boxInfoTitle">AJUDA</h1>
+
+                <div class="groupLinksBox1">
+                    <p class="linkBox1">> Entregas</p>
+                    <p class="linkBox1">> Cancelamento e Reembolso</p>
+                    <p class="linkBox1">> Pagamentos</p>
+                </div>
+            </div>
+
+            <div class="boxInfo3Footer">
+                <h1 class="boxInfoTitle">ENTRE EM CONTATO</h1>
+
+                <div class="groupLinksBox2">
+                    <p class="linkBox2">(11) 99123-4567</p>
+                    <p class="linkBox2">terashop@sac.com</p>
+                </div>
+            </div>
+
+            <div class="boxInfo4Footer">
+                <h1 class="boxInfoTitle">FORMAS DE PAGAMENTO</h1>
+
+                <div class="groupImagesBox4">
+                    <img class="imgPagamentoBox4" src="img/Pix.png" alt=""> <img class="imgPagamento2Box4" src="img/MasterCard.png" alt=""> <img class="imgPagamento2Box4" src="img/Visa.png" alt="">
+                </div>
+                <div class="groupImagesBox4">
+                    <img class="imgPagamentoBox4" src="img/Elo.png" alt=""> <img class="imgPagamento2Box4" src="img/AMEX.png" alt="">
+                </div> 
+            </div>
+
+        </div>
+
+        <div class="containerRedesSociaisFooter">
+            <h1 class="boxRedesTitle">SIGA NOSSAS REDES SOCIAIS</h1>
+            <div class="groupIcons">
+                <img class="iconRede1"src="img/instagram.png" alt=""> <img class="iconRede1"  src="img/youtube.png" alt=""> <img class="iconRede1"  src="img/x.png" alt=""> <img class="iconRede1"  src="img/facebook.png" alt="">
+            </div>
+            
+        </div>
+        <div class="containerLogoEmpresa">
+            <img class="footerLogo" src="img/2.png" alt="">
+            <p class="nomeEmpresa">TeraShop Electronics LTDA.</p>
+            <p class="infosEmpresa">CNPJ: 00.000.000/0000-00 | Mogi das Cruzes - SP</p>
+        </div>
+
+    </footer>
+
+    <script src="animations.js"></script>
+    <script src="produtos.js"></script>
+</body>
+</html>

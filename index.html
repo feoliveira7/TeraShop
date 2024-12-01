@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeraShop</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/iconTeraShop2.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="headerClass">
+
+        <div class="logo">
+
+            <img onclick="location.href='index.html'" class="logoTera" src="img/2.png" alt="">
+
+        </div>
+
+        <div class="searchBarDiv">
+
+            <input type="text" id="iconSearchInput" class="searchInput" placeholder="Pesquisar produtos">
+
+        </div>
+
+
+        <div class="ContaDiv">
+
+            <div class="buttonsContas">
+
+                <p class="btnConta1"><span class="spanButtonEntrar">Entre</span>  ou</p>
+                <p class="btnConta2">Crie sua conta</p>
+
+            </div>
+
+            <img class="contaIcon" src="img/account.png" alt="">
+
+        </div>
+
+
+        <div class="carrinhoDiv">
+
+            <img class="iconeCarrinho" src="img/carrinho-de-compras.png" alt="">
+
+        </div>
+
+    </header>
+
+
+    <nav class="navbar">
+
+        <div class="fundoCategorias">
+
+            <div onclick="location.href='#containerCategorias'" class="btnCategoria1"><img class="imgBtnCategoria1" src="img/menu.png" alt=""><p class="textBtnCategoria1">TODAS AS CATEGORIAS</p></div>
+
+            <div onclick="location.href='#containerPromocoes'" class="btnCategoria2"><p class="textBtnCategoria2">PROMOÇÕES</p></div>
+
+            <div class="btnCategoria3"><p class="textBtnCategoria3" onclick="location.href='computadores.html'">COMPUTADORES</p></div>
+
+            <div class="btnCategoria4"><p class="textBtnCategoria4" onclick="location.href='computadores.html'">PERIFÉRICOS</p></div>
+
+            <div class="btnCategoria5"><p class="textBtnCategoria5" onclick="location.href='computadores.html'">HARDWARE</p></div>
+
+            <div class="btnCategoria6"><p class="textBtnCategoria6">TODOS OS ELETRÔNICOS</p></div>
+
+            <div class="btnCategoria7"> <img class="imgBtnCategoria7" src="img/starPrime.png" alt=""> <p class="textBtnCategoria7">TERAPRIME</p></div>
+        </div>
+    </nav>
+
+    <main class="main">
+
+        <div class="fundoBanner">
+
+            <img src="img/bannerHome1.jpg" alt="" draggable="false" width="1000px">
+
+            <div class="buttonsSlider">
+                <div id="buttonSlider1" onclick="image1()" class="buttonSlider1"></div>
+                <div id="buttonSlider2" onclick="image2()" class="buttonSlider2"></div>
+                <div id="buttonSlider3"  onclick="image3()"class="buttonSlider3"></div>
+            </div>
+        </div>
+
+        <hr class="spaceLine">
+
+        <div id="containerPromocoes" class="containerPromocoes">
+
+            <div class="fundoTitle">
+                <img class="imgTitlePromo" src="img/fogo.png" draggable="false" alt=""> <p class="titlePromocoes">PROMOÇÕES EM DESTAQUE</p>
+            </div>
+
+            <div class="fundoPromocoes">
+
+                <div class="line1produtosPromocao">
+
+                    <div class="produtoPromocao1">
+
+
+                        <div class="infosPromocao1">
+
+                            <img class="imgProduto1Promocao" draggable="false" src="img/AsusVivobook16.png" alt="">
+
+                            <div class="txtsPromocao1">
+                                <p class="productPromocaoName1">Notebook Asus Vivobook 16, Intel Core i7-1255U, 16GB/512GB SSD, Win11, Tela 16"</p>
+                                <p class="productPromocaoValue1">R$ 3.999,00</p>
+                                <p class="productPromocaoSubValue1">À vista no PIX</p>
+                            </div>
+
+                        </div>
+
+                        <p class="buyBotaoPromocao1">CONFERIR OFERTA</p>
+
+                    </div>
+
+                    <div class="produtoPromocao2">
+                        <img class="TeraPrimeBar" src="img/TeraPrime Bar.png">
+
+
+                        <div class="infosPromocao2">
+
+                            <img class="imgProduto2Promocao" draggable="false" src="img/I7.png" alt="">
+
+                            <div class="txtsPromocao2">
+                                <p class="productPromocaoName2">Processador Intel Core i7-12700K, 3.6GHz (5.0GHz Max Turbo), 12 Núcleos, 20 Threads</p>
+                                <p class="productPromocaoValue2">R$ 1.679,99</p>
+                                <p class="productPromocaoSubValue2">Exclusivo para membros Prime</p>
+                            </div>
+
+                        </div>
+
+                        <p class="buyBotaoPromocao2">CONFERIR OFERTA</p>
+
+                    </div>
+
+                    
+
+                </div>
+
+                <div class="line2produtosPromocao">
+
+                    <div class="produtoPromocao3">
+
+
+                        <div class="infosPromocao3">
+
+                            <img class="imgProduto3Promocao" draggable="false" src="img/gabinete_TGT_Legion.png" alt="">
+
+                            <div class="txtsPromocao3">
+                                <p class="productPromocaoName3">Gabinete Gamer TGT Legion, Mid-Tower, Lateral de Vidro, Preto, TGT-LGN-BK</p>
+                                <p class="productPromocaoValueOld3">R$ 236,65</p>
+                                <p class="productPromocaoValue3">R$ 169,99</p>
+                                <p class="productPromocaoSubValue3">À vista no PIX</p>
+                            </div>
+
+                        </div>
+
+                        <p class="buyBotaoPromocao3">CONFERIR OFERTA</p>
+
+                    </div>
+
+                    <div class="produtoPromocao4">
+
+
+                        <div class="infosPromocao4">
+
+                            <img class="imgProduto4Promocao" draggable="false" src="img/ramKingston16gb.png" alt="">
+
+                            <div class="txtsPromocao4">
+                                <p class="productPromocaoName4">Memória RAM Kingston Fury Beast, 16GB, 3200MHz, DDR4, CL16, Preto</p>
+                                <p class="productPromocaoValueOld4">R$ 292,46</p>
+                                <p class="productPromocaoValue4">R$ 273,99</p>
+                                <p class="productPromocaoSubValue4">À vista no PIX com <strong> 6% OFF</strong></p>
+                            </div>
+
+                        </div>
+
+                        <p class="buyBotaoPromocao3">CONFERIR OFERTA</p>
+
+                    </div>
+
+                    
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <hr style="margin-top: 50px;" class="spaceLine">
+
+        <div class="publicidades">
+            <img  class="bannerPromo1" src="img/Promocional 1 - AMD.png" title="Novo AMD Ryzen 7 7800X" alt="AMDpromo">
+            <img  class="bannerPromo2" onclick="location.href='#'" src="img/Promocional 2 - LG.png" title="LG UltraGear" alt="LGpromo">
+        </div>
+    
+
+
+        <hr class="spaceLine">
+
+
+
+        <div id="containerCategorias" class="containerCategorias">
+
+            <div class="fundoTitleCategorias">
+                <img class="imgTitleCat" draggable="false" src="img/menuBlue.png" alt=""> <p class="titleCategorias">CATEGORIAS</p>
+            </div>
+
+            <div class="fundoSectionCategorias">
+
+                <div class="frameCategoria1" onclick="location.href='computadores.html'">
+                    <img class="imgCategoria1" src="img/placaMaeCategorias.png" alt="">
+
+                    <p class="buttonCategoria1display">HARDWARE</p>
+                </div>
+
+                <div class="frameCategoria2" onclick="location.href='computadores.html'">
+                    <img class="imgCategoria2" src="img/perifericosCategorias.png" alt="">
+
+                    <p class="buttonCategoria2display">PERIFÉRICOS</p>
+                </div>
+
+                <div class="frameCategoria3" onclick="location.href='computadores.html'">
+                    <img class="imgCategoria3" src="img/computadoresCategorias.png" alt="">
+
+                    <p class="buttonCategoria3display">COMPUTADORES</p>
+                </div>
+
+                <div class="frameCategoria4" onclick="location.href='computadores.html'">
+                    <img class="imgCategoria4" src="img/celularesCategorias2.png" alt="">
+
+                    <p class="buttonCategoria4display">CELULARES</p>
+                </div>
+
+                <div class="frameCategoria5" onclick="location.href='computadores.html'">
+                    <img class="imgCategoria5" src="img/eletronicosCategorias.png" alt="">
+
+                    <p class="buttonCategoria5display">ELETRÔNICOS</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+    <footer class="footerHome">
+
+        <div class="containerInfosFooter1">
+            <div class="boxInfo1Footer">
+                <h1 class="boxInfoTitle">INSTITUCIONAL</h1>
+
+                <div class="groupLinksBox1">
+                    <p class="linkBox1" onclick="location.href='about.html'">> Quem somos</p>
+                    <p class="linkBox1">> Políticas de Privacidade</p>
+                    <p class="linkBox1">> Código de defesa do consumidor</p>
+                    <p class="linkBox1">> Segurança e Privacidade</p>
+                </div>
+            </div>
+
+            <div class="boxInfo2Footer">
+                <h1 class="boxInfoTitle">AJUDA</h1>
+
+                <div class="groupLinksBox1">
+                    <p class="linkBox1">> Entregas</p>
+                    <p class="linkBox1">> Cancelamento e Reembolso</p>
+                    <p class="linkBox1">> Pagamentos</p>
+                </div>
+            </div>
+
+            <div class="boxInfo3Footer">
+                <h1 class="boxInfoTitle">ENTRE EM CONTATO</h1>
+
+                <div class="groupLinksBox2">
+                    <p class="linkBox2">(11) 99123-4567</p>
+                    <p class="linkBox2">terashop@sac.com</p>
+                </div>
+            </div>
+
+            <div class="boxInfo4Footer">
+                <h1 class="boxInfoTitle">FORMAS DE PAGAMENTO</h1>
+
+                <div class="groupImagesBox4">
+                    <img class="imgPagamentoBox4" src="img/Pix.png" alt=""> <img class="imgPagamento2Box4" src="img/MasterCard.png" alt=""> <img class="imgPagamento2Box4" src="img/Visa.png" alt="">
+                </div>
+                <div class="groupImagesBox4">
+                    <img class="imgPagamentoBox4" src="img/Elo.png" alt=""> <img class="imgPagamento2Box4" src="img/AMEX.png" alt="">
+                </div> 
+            </div>
+
+        </div>
+
+        <div class="containerRedesSociaisFooter">
+            <h1 class="boxRedesTitle">SIGA NOSSAS REDES SOCIAIS</h1>
+            <div class="groupIcons">
+                <img class="iconRede1"src="img/instagram.png" alt=""> <img class="iconRede1"  src="img/youtube.png" alt=""> <img class="iconRede1"  src="img/x.png" alt=""> <img class="iconRede1"  src="img/facebook.png" alt="">
+            </div>
+            
+        </div>
+        <div class="containerLogoEmpresa">
+            <img class="footerLogo" src="img/2.png" alt="">
+            <p class="nomeEmpresa">TeraShop Electronics LTDA.</p>
+            <p class="infosEmpresa">CNPJ: 00.000.000/0000-00 | Mogi das Cruzes - SP</p>
+        </div>
+
+    </footer>
+
+    <script src="animations.js"></script>
+</body>
+</html>

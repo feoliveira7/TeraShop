@@ -1,0 +1,917 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    
+}
+
+.headerClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-color: rgb(24, 24, 24);
+}
+
+.logoTera{
+    width: 260px;
+    margin-right: 160px;
+    cursor: pointer;
+}
+
+.searchBarDiv{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchInput{
+    margin-right: 160px;
+    width: 510px;
+    height: 45px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    font-size: 18px;
+    font-family: Poppins;
+    padding-left: 20px;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+.searchInput::placeholder{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.searchIcon{
+    width: 40px;
+    height: 40px;
+}
+
+#iconSearchInput{
+    background-image: url(/img/pesquisa-de-lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+    background-position-x: 492px;
+}
+
+.btnConta1{
+    font-family: Inter;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.spanButtonEntrar:hover{
+    text-decoration: underline;
+
+}
+
+.btnConta2{
+    margin-top: -16px;
+    font-family: Inter;
+    color: white;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.btnConta2:hover{
+    text-decoration: underline;
+}
+
+
+.buttonsContas{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ContaDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.contaIcon{
+    margin-left: 10px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+}
+
+.iconeCarrinho{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar{
+    height: 40px;
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: 0px;
+    background-color: rgb(44, 62, 155);
+    display: flex;
+    justify-content: center;
+}
+
+.fundoCategorias{
+    width: 1500px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* BOTAO CATEGORIA 1 */
+
+.btnCategoria1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+    border-left: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria1:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.imgBtnCategoria1{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.textBtnCategoria1{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 2 */
+
+.btnCategoria2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria2:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria2{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 3 */
+
+.btnCategoria3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria3:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria3{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 4 */
+
+.btnCategoria4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 165px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria4:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria4{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 5 */
+
+.btnCategoria5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria5:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria5{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+/* BOTAO CATEGORIA 6 */
+
+.btnCategoria6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria6:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria6{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+/* BOTAO CATEGORIA 7 */
+
+.btnCategoria7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria7:hover{
+    background-color: rgb(12, 12, 12);
+}
+
+.textBtnCategoria7{
+    display: flex;
+    align-items: center;
+    font-family: Bebas Neue;
+    background: linear-gradient(90deg, rgba(0,57,181,1) 0%, rgba(117,161,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-top: 25px;
+
+}
+
+.imgBtnCategoria7{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spaceLine{
+    width: 1200px;
+    height: 5px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.bannerPC{
+    margin-top: 40px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.categoriaName{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.titleCategoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90px;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+
+.containerGeral{
+    margin-top: 50px;
+    display: flex;
+    /* background-color: #9c9c9c; */
+    width: 1600px;
+    height: 1900px;
+}
+
+.divFiltros{
+    display: flex;
+    justify-content: center;
+
+    width: 350px;
+    height: 100vh;
+}
+
+.fundoFiltros{
+    width: 310px;
+    height: 390px;
+    border-radius: 9px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.151);
+}
+
+
+.titleFiltros{
+    margin-left: 25px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 25px;
+    cursor: default;
+}
+
+.groupLinks{
+    margin-top: -10px;
+}
+
+.linkFiltro{
+    color: #001057;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: -10px;
+}
+
+.spaceLine3{
+    width: 270px;
+    height: 2px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.groupFiltros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.groupNameFiltro{
+    display: flex;
+    align-items: center;
+
+    width: 200px;
+    height: 40px;
+}
+
+.filtrosLinha1{
+    display: flex;
+}
+
+.imgFiltro{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.nomeFiltro{
+    font-size: 22px;
+    font-family: Poppins;
+    color: #323232;
+}
+
+.groupButton{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.buttonFiltro{
+    display: flex;
+    align-items: center;
+    width: 60px;
+    height: 20px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+
+.ballButtonFiltro{
+    width: 23px;
+    height: 23px;
+    background-color: #ffffff;
+    border: 3px solid #B7B7B7;
+    border-radius: 50%;
+}
+
+.containerBusca{
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.catalogSearchInput{
+    margin-left: 40px;
+
+    width: 330px;
+    height: 40px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    font-size: 20px;
+    font-family: Poppins;
+    padding-left: 20px;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+    background-color: #00000000;
+}
+
+.catalogSearchInput::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+#iconCatalogSearchInput{
+    background-image: url(/img/pesquisa-de-lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+    background-position-x: 310px;
+}
+
+.botaoRelevancia{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    width: 230px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+    scale: 0.9;
+}
+
+.textRelevancia{
+    margin-left: 5px;
+    color: #1d1d1d;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    width: 200px;
+}
+
+.imgRelevancia{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: -15px;
+
+}
+
+
+.catalogContainer{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+}
+
+.line1Ctalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+}
+
+.produtoFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 390px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(15, 15, 15, 0.192);
+}
+
+.stars{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    gap: 5px;
+}
+
+.rateImg{
+    width: 16px;
+    height: 16px;
+    user-select: none;
+}
+
+.rateTxt{
+    font-family: Poppins;
+    color: #5171FF;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.imageProduto{
+    margin-top: -10px;
+    width: 100%;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.produtoInfos{
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.nomeProduto{
+    margin-left: 15px;
+    width: 85%;
+    font-family: Poppins;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.valorProduto{
+
+    font-family: Poppins;
+    color: #5171FF;
+    font-size: 25px;
+    font-weight: 650;
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.subValorProduto{
+    color: #9c9c9c;
+    font-family: Poppins;
+    font-size: 17px;
+    margin-top: -30px;
+    margin-left: 15px;
+}
+
+.containerBotaoCompra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin-top: -10px;
+    height: 45px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #E2E2E2;
+    color: #182D8B;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.containerBotaoCompra:hover{
+    background-color: #182D8B;
+    color: #E2E2E2;
+}
+
+.buttonComprar{
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.produtoFrame{
+    scale: 0.95;
+}
+
+.pageSkipper{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+}
+
+.page1button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    font-family: Poppins;
+    color: #182D8B;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 4px solid #C6C6C6;
+    cursor: pointer;
+}
+
+.page2button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    font-family: Poppins;
+    color: #6279E1;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 4px solid #C6C6C6;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.pageSkipButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 40px;
+    font-family: Poppins;
+    color: #6279E1;
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 4px solid #C6C6C6;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+/* CSS FOOTER -- CSS FOOTER -- CSS FOOTER -- CSS FOOTER -- CSS FOOTER -- CSS FOOTER -- CSS FOOTER -- CSS FOOTER --  */
+
+.footerHome{
+    margin-top:10px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    width: 100vw;
+    height: 540px;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxInfo1Footer{
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo2Footer{
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo4Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo3Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.containerInfosFooter1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 240px;
+    /* background-color: aqua; */
+}
+
+.boxInfoTitle{
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.linkBox1{
+    margin-top: -10px;
+    color: rgb(170, 170, 170);
+    font-family: Poppins;
+    font-size: 17px;
+    text-decoration:none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.linkBox2{
+    margin-top: -10px;
+    color: rgb(170, 170, 170);
+    font-family: Poppins;
+    font-size: 17px;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.linkBox1:hover{
+    color: rgb(212, 212, 212);
+}
+
+.linkBox2:hover{
+    color: rgb(212, 212, 212);
+}
+
+.groupLinksBox2{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.groupImagesBox4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.imgPagamentoBox4{
+    width: 50px;
+
+}
+
+.imgPagamento2Box4{
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+.containerRedesSociaisFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 0px;
+    width: 100vw;
+    height: 110px;
+    background-color: #313131;
+}
+
+.boxRedesTitle{
+    font-family: Poppins;
+    color: #5171FF;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.groupIcons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    width: 220px;
+}
+
+.iconRede1{
+    width: 34px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.iconRede1:hover{
+    scale: 1.1;
+}
+
+.footerLogo{
+    width: 300px;
+}
+
+.containerLogoEmpresa{
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #182D8B; */
+}
+
+.nomeEmpresa{
+    margin-top: -10px;
+    font-family: Poppins;
+    font-weight: 350;
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.infosEmpresa{
+    font-size: 15px;
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 350;
+    font-size: 15px;
+    color: #9c9c9c;
+}

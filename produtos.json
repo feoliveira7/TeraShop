@@ -1,0 +1,87 @@
+{
+    "nomeProduto1": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 512GB SSD, KeepOS, Tela 15,6",
+    "valorProduto1": "R$2.605,86",
+    "imageProduto1": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQYyFFsl7ZkGAmFv7lt9Grsxshl21-CreSJLlR7N9nQSFJbr-hVxA_RMrkhLjgkpXJ_klh1uaI2LqNIM0SOzPph7MhHARuhgMZsUvDjyAMEiV5OpmZOKAwu_MuMamwg1gNGy43os_EFsXc&usqp=CAc",
+
+    "nomeProduto2": "Notebook Acer Nitro V15 ANV15-51-58AZ 13ª Geração Intel Core i5-13420H, 8GB RAM, 512GB SSD, NVIDIA RTX 3050, 15.6",
+    "valorProduto2": "R$4.369,05",
+    "imageProduto2": "https://m.media-amazon.com/images/I/51Wv-tEUn6L._AC_SX679_.jpg",
+    
+    "nomeProduto3": "Notebook Acer Aspire 5 A515-45-R3PU AMD Ryzen 7, 16GB RAM, 512GB SSD, 15,6",
+    "valorProduto3": "R$3.099,99",
+    "imageProduto3": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTOsEvZ3YxlGjsVvZWEABpYBU4LnhNnGwgfFZJvBEH06haF6IBSqY7e0M9D4yyLu9W2Zy2eX8nrE0OVzFS4--t58084nXVLsxwp_HhnyKwfAPRXIt264uzxOg&usqp=CAE",
+
+    "nomeProduto4": "Notebook Asus Vivobook 16, Intel Core i7-1255U, 16GB/512GB SSD, Win11, Tela 16",
+    "valorProduto4": "R$3.999,00",
+    "imageProduto4": "/img/AsusVivobook16.png",
+    
+
+
+
+
+
+
+    "nomeProduto5": "PC Gamer Mancer, Intel i3-12100F, GeForce RTX 2060 6GB, 16GB DDR4, SSD 480GB",
+    "valorProduto5": "R$3.224,10",
+    "imageProduto5": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/h/e/hexer-mancer-rgb-intel-media-01_1_9.jpg",
+    
+    "nomeProduto6": "PC Gamer Lúcifer III, AMD Ryzen 5 8600G, 16GB DDR5, SSD M.2 480GB",
+    "valorProduto6": "R$3.205,82",
+    "imageProduto6": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/a/p/apusrgb_01.jpg",
+    
+    "nomeProduto7": "PC Gamer Poseídon, AMD Ryzen 7 5700X3D, GeForce RTX 4060 8GB, 16GB DDR4, SSD M.2 480GB",
+    "valorProduto7": "R$5.399,00",
+    "imageProduto7": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/c/o/computador-mancer-gamer-cv-500-preto-001_3.jpg",
+    
+    "nomeProduto8": "PC Gamer Pichau Allocer II, AMD Ryzen 5 5600GT, GeForce RTX 4060 Ti 8GB, 16GB DDR4, SSD 480GB",
+    "valorProduto8": "R$5.144,84",
+    "imageProduto8": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/a/-/a-pc-gamer-mancer-goblin-v2-branco-media-001_1_1.jpg",
+
+
+
+
+
+
+
+
+
+
+    
+    "nomeProduto9": "MacBook Air Apple 13', M1, CPU 8 Núcleos, GPU 7 Núcleos, 8GB RAM, SSD 256GB, Cinza Espacial - MGN63BZ/A",
+    "valorProduto9": "R$5.799,99",
+    "imageProduto9": "https://images.kabum.com.br/produtos/fotos/153433/macbook-air-apple-13-3-processador-m1-8gb-ssd-256gb-space-grey-mgn63bz-a_1616415939_m.jpg",
+
+    "nomeProduto10": "MacBook Pro Apple 14', M3, CPU 8 Núcleos, GPU 10 Núcleos, 8GB RAM, SSD 1TB, Cinza-espacial - MTL83BZ/A",
+    "valorProduto10": "R$12.999,99",
+    "imageProduto10": "https://images.kabum.com.br/produtos/fotos/505676/notebook-macbook-pro-apple-tela-retina-14-chip-m3-8gb-ram-cpu-8-nucleos-gpu-10-nucleos-ssd-1tb-cinza-espacial-mtl83bz-a_1702572333_m.jpg",
+    
+
+    "nomeProduto11": "Notebook Gamer ASUS TUF Gaming, Intel Core i7-13620H, RTX 4050, 16GB RAM, SSD 512GB, 15,6', Mecha Gray",
+    "valorProduto11": "R$7.849,99",
+    "imageProduto11": "https://images.kabum.com.br/produtos/fotos/518064/notebook-gamer-asus-tuf-gaming-f15-fx507vu-intel-core-i7-13620h-rtx-4050-16gb-ram-ssd-512gb-15-6-led-fhd-144hz-w11h-fx507vu-lp177w_1711033059_m.jpg",
+    
+    "nomeProduto12": "Notebook Samsung Galaxy Book4 Pro, Intel Core Ultra 5 125H, 16GB, 512GB SSD 14' FHD AMOLED, W11 Home, Prata",
+    "valorProduto12": "R$4.999,99",
+    "imageProduto12": "https://images.kabum.com.br/produtos/fotos/669279/notebook-samsung-galaxy-book4-pro-intel-core-ultra-5-125h-16gb-512gb-ssd-14-fhd-amoled-touchscreen-w11-home-prata-np940xgk-kg2br_1732043463_m.jpg",
+    
+
+
+
+    "nomeProduto13": "PC Gamer Corsair iCue, i5-13400F, GeForce RTX 4060 Ti 8GB, 32GB DDR4, SSD M.2 480GB",
+    "valorProduto13": "R$8.689,97",
+    "imageProduto13": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/3/5/3500x_corsair_branco_001.jpg",
+
+    "nomeProduto14": "PC Gamer TeraS, Intel i5-12400F, GeForce GTX 1660 Super 6GB, 16GB DDR4, SSD M.2 480GB",
+    "valorProduto14": "R$12.999,99",
+    "imageProduto14": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/a/-/a-pc-pichau-wardvspreto-new-grande-001_12.jpg",
+    
+
+    "nomeProduto15": "PC Gamer Highflyer, Intel i9-12900K, GeForce RTX 4090 24GB, 64GB DDR5, SSD M.2 2TB",
+    "valorProduto15": "R$22.999,96",
+    "imageProduto15": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/g/a/gabinete-gamer-pichau-voyager-one-config-preto-001_1_3.jpg",
+    
+    "nomeProduto16": "PC Gamer Pichau Vassago, Intel i3-13100, GeForce GTX 1650 4GB, 8GB DDR4, SSD 240GB",
+    "valorProduto16": "R$3.041,31",
+    "imageProduto16": "https://media.pichau.com.br/media/catalog/product/cache/ef72d3c27864510e5d4c0ce69bade259/a/p/apus-bk-pichau-intel-rtx-001_36.jpg"
+    
+}

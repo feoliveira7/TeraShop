@@ -1,0 +1,1192 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+    overflow-x: hidden;
+    
+}
+
+.headerClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    margin-left: -8px;
+    margin-top: -8px;
+    background-color: rgb(24, 24, 24);
+}
+
+.logoTera{
+    width: 260px;
+    margin-right: 160px;
+    cursor: pointer;
+}
+
+.searchBarDiv{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchInput{
+    margin-right: 160px;
+    width: 510px;
+    height: 45px;
+    border: none;
+    border-radius: 9px;
+    outline: none;
+    font-size: 18px;
+    font-family: Poppins;
+    padding-left: 20px;
+    font-weight: 600;
+    color: rgb(66, 66, 66);
+}
+
+.searchInput::placeholder{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 17px;
+}
+
+.searchIcon{
+    width: 40px;
+    height: 40px;
+}
+
+#iconSearchInput{
+    background-image: url(/img/pesquisa-de-lupa.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30px;
+    background-position-x: 492px;
+}
+
+.btnConta1{
+    font-family: Inter;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.spanButtonEntrar:hover{
+    text-decoration: underline;
+
+}
+
+.btnConta2{
+    margin-top: -16px;
+    font-family: Inter;
+    color: white;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+.btnConta2:hover{
+    text-decoration: underline;
+}
+
+
+.buttonsContas{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.ContaDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+}
+
+.contaIcon{
+    margin-left: 10px;
+    display: flex;
+    width: 45px;
+    height: 45px;
+}
+
+.iconeCarrinho{
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.navbar{
+    height: 40px;
+    width: 100vw;
+    margin-left: -8px;
+    margin-top: 0px;
+    background-color: rgb(44, 62, 155);
+    display: flex;
+    justify-content: center;
+}
+
+.fundoCategorias{
+    width: 1500px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* BOTAO CATEGORIA 1 */
+
+.btnCategoria1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 240px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+    border-left: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria1:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.imgBtnCategoria1{
+    width: 27px;
+    height: 27px;
+    margin-right: 10px;
+}
+
+.textBtnCategoria1{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 2px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 2 */
+
+.btnCategoria2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria2:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria2{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 3 */
+
+.btnCategoria3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria3:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria3{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 4 */
+
+.btnCategoria4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 165px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria4:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria4{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+
+/* BOTAO CATEGORIA 5 */
+
+.btnCategoria5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 160px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria5:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria5{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+/* BOTAO CATEGORIA 6 */
+
+.btnCategoria6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 250px;
+    background-color: rgb(44, 62, 155);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria6:hover{
+    background-color: rgb(35, 50, 128);
+}
+
+.textBtnCategoria6{
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 19px;
+    letter-spacing: 4px;
+    margin-top: 23px;
+}
+
+/* BOTAO CATEGORIA 7 */
+
+.btnCategoria7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+    border-right: 2px solid rgb(21, 32, 90);
+}
+
+.btnCategoria7:hover{
+    background-color: rgb(12, 12, 12);
+}
+
+.textBtnCategoria7{
+    display: flex;
+    align-items: center;
+    font-family: Bebas Neue;
+    background: linear-gradient(90deg, rgba(0,57,181,1) 0%, rgba(117,161,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-top: 25px;
+
+}
+
+.imgBtnCategoria7{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fundoBanner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(14, 14, 14);
+    width: 100vw;
+    height: 255px;
+}
+
+.buttonsSlider{
+    display: flex;
+    position: relative;
+    margin-top: -10px;
+}
+
+.buttonSlider1{
+    position: relative;
+    width: 55px;
+    height: 8px;
+    border-radius: 20px;
+    top: -10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 0px 10px rgba(216, 216, 216, 0.692);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonSlider2{
+    position: relative;
+    width: 42px;
+    height: 8px;
+    border-radius: 20px;
+    top: -10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 60%;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+.buttonSlider3{
+    position: relative;
+    width: 42px;
+    height: 8px;
+    border-radius: 20px;
+    top: -10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 60%;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.2s;
+}
+
+.spaceLine{
+    width: 1200px;
+    height: 5px;
+    background-color: rgb(206, 206, 206);
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.fundoTitle{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    cursor: default;
+    user-select: none;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.imgTitlePromo{
+    width: 36px;
+    height: 36px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.titlePromocoes{
+    font-family: Poppins;
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+.fundoPromocoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 1200px;
+    height: 500px;
+
+}
+
+.line1produtosPromocao{
+    margin-top: 10px;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.line2produtosPromocao{
+    margin-top: 30px;
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* CSS PROMOÇÕES/PRODUTO 1 */
+
+.produtoPromocao1{
+    display: flex;
+    flex-direction: column;
+
+    width: 520px;
+    height: 240px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+
+
+
+.infosPromocao1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imgProduto1Promocao{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    
+
+}
+
+.productPromocaoName1{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productPromocaoValue1{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: -10px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 650;
+    color: #5171FF;
+}
+
+.productPromocaoSubValue1{
+    margin-left: 15px;
+    margin-top: -35px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 520;
+    color: #464646;
+    opacity: 75%;
+}
+
+.buyBotaoPromocao1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(44, 62, 155);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buyBotaoPromocao1:hover{
+    background-color: rgb(33, 47, 114);
+}
+
+
+/* CSS PROMOÇÕES/PRODUTO 2 */
+
+.produtoPromocao2{
+    display: flex;
+    flex-direction: column;
+    width: 520px;
+    height: 240px;
+    background-color: #151515;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
+    border: 5px solid #151515;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-left: 30px;
+    margin-right: -7px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.TeraPrimeBar{
+    position: relative;
+    margin-top: -45px;
+    margin-left: 275px;
+    z-index: 4;
+    width: 250px;
+}
+
+.infosPromocao2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imgProduto2Promocao{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    border-radius: 9px;
+
+}
+
+.productPromocaoName2{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.productPromocaoValue2{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: -10px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 650;
+    background: linear-gradient(90deg, rgba(0,57,181,1) 0%, rgba(117,161,255,1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.productPromocaoSubValue2{
+    margin-left: 15px;
+    margin-top: -35px;
+    font-family: Poppins;
+    font-size: 16px;
+    color: #9c9c9c;
+    font-weight: 520;
+    opacity: 90%;
+}
+
+.buyBotaoPromocao2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: linear-gradient(90deg, rgba(0,57,181,1) 0%, rgba(117,161,255,1) 100%);;
+    opacity: 80%;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buyBotaoPromocao2:hover{
+    opacity: 100%;
+}
+
+/* CSS PROMOÇÕES/PRODUTO 3 */
+
+.produtoPromocao3{
+    display: flex;
+    flex-direction: column;
+
+    width: 520px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.infosPromocao3{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imgProduto3Promocao{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    
+
+}
+
+.productPromocaoName3{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productPromocaoValue3{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 700;
+    color: #5171FF;
+}
+
+.productPromocaoValueOld3{
+    margin-left: 15px;
+    margin-top: -20px;
+    text-decoration: line-through;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 450;
+    color: #464646;
+}
+
+.productPromocaoSubValue3{
+    margin-left: 15px;
+    margin-top: -35px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 520;
+    color: #464646;
+    opacity: 75%;
+}
+
+.buyBotaoPromocao3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(44, 62, 155);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buyBotaoPromocao3:hover{
+    background-color: rgb(33, 47, 114);
+}
+
+
+/* CSS PROMOÇÕES/PRODUTO 3 */
+
+.produtoPromocao4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 520px;
+    height: 250px;
+    background-color: white;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.295);
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+
+.infosPromocao4{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imgProduto4Promocao{
+    width: 160px;
+    height: 160px;
+    margin-left: 20px;
+    
+
+}
+
+.productPromocaoName4{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: 10px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productPromocaoValue4{
+    margin-left: 15px;
+    width: 290px;
+    margin-top: -20px;
+    font-family: Poppins;
+    font-size: 27px;
+    font-weight: 650;
+    color: #5171FF;
+}
+
+.productPromocaoValueOld4{
+    margin-left: 15px;
+    margin-top: -20px;
+    text-decoration: line-through;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 450;
+    color: #464646;
+}
+
+.productPromocaoSubValue4{
+    margin-left: 15px;
+    margin-top: -35px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 520;
+    color: #464646;
+    opacity: 75%;
+}
+
+.buyBotaoPromocao4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 1px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: rgb(44, 62, 155);
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.buyBotaoPromocao4:hover{
+    background-color: rgb(33, 47, 114);
+}
+
+
+.publicidades{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+}
+
+
+.bannerPromo1{
+    margin-top: 40px;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.bannerPromo2{
+    margin-top: 40px;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+/* CSS DA PARTE DE CATEGORIAS */
+
+.fundoTitleCategorias{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+.imgTitleCat{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.titleCategorias{
+    font-family: Poppins;
+    color: rgb(24, 24, 24);
+    font-size: 25px;
+    font-weight: 700;
+    cursor: default;
+    user-select: none;
+
+}
+
+.fundoSectionCategorias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    /* background-color: #5171FF; */
+    width: 1300px;
+    height: 310px;
+    user-select: none;
+}
+
+
+/* CSS GATEGORIAS */
+
+
+/* CSS GATEGORIA 1 */
+
+.frameCategoria1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 280px;
+    /* background-color: #1d1d1d; */
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.frameCategoria1:hover,
+.frameCategoria2:hover,
+.frameCategoria3:hover,
+.frameCategoria4:hover,
+.frameCategoria5:hover{
+    scale: 1.05;
+}
+
+.imgCategoria1{
+    width: 190px;
+    height: 190px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+.buttonCategoria1display{
+    width: 230px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 5px 8px   rgba(0, 0, 0, 0.144);
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #182D8B;
+}
+
+/* CSS GATEGORIA 2 */
+
+.frameCategoria2,
+.frameCategoria3,
+.frameCategoria4,
+.frameCategoria5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 280px;
+    /* background-color: #1d1d1d; */
+    text-align: center;
+    margin-left: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.imgCategoria2,
+.imgCategoria3,
+.imgCategoria4,
+.imgCategoria5{
+    width: 190px;
+    height: 190px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.171);
+    border-radius: 50%;
+    margin-top: auto;
+}
+
+.buttonCategoria2display,
+.buttonCategoria4display,
+.buttonCategoria5display{
+    width: 230px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 5px 8px   rgba(0, 0, 0, 0.144);
+
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #182D8B;
+}
+
+.buttonCategoria3display{
+    width: 230px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 0 5px 8px   rgba(0, 0, 0, 0.144);
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 650;
+    letter-spacing: 1px;
+    color: #182D8B;
+}
+
+
+
+.footerHome{
+    margin-top: 50px;
+    margin-left: -8px;
+    margin-bottom: -8px;
+    width: 100vw;
+    height: 540px;
+    background-color: #1d1d1d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxInfo1Footer{
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo2Footer{
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo4Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.boxInfo3Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color: #2344d42c; */
+    width: 300px;
+    height: 250px;
+}
+
+.containerInfosFooter1{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 240px;
+    /* background-color: aqua; */
+}
+
+.boxInfoTitle{
+    font-family: Poppins;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.linkBox1{
+    margin-top: -10px;
+    color: rgb(170, 170, 170);
+    font-family: Poppins;
+    font-size: 17px;
+    text-decoration:none;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.linkBox2{
+    margin-top: -10px;
+    color: rgb(170, 170, 170);
+    font-family: Poppins;
+    font-size: 17px;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.linkBox1:hover{
+    color: rgb(212, 212, 212);
+}
+
+.linkBox2:hover{
+    color: rgb(212, 212, 212);
+}
+
+.groupLinksBox2{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.groupImagesBox4{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+
+.imgPagamentoBox4{
+    width: 50px;
+
+}
+
+.imgPagamento2Box4{
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+.containerRedesSociaisFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 0px;
+    width: 100vw;
+    height: 110px;
+    background-color: #313131;
+}
+
+.boxRedesTitle{
+    font-family: Poppins;
+    color: #5171FF;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.groupIcons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    width: 220px;
+}
+
+.iconRede1{
+    width: 34px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s;
+}
+
+.iconRede1:hover{
+    scale: 1.1;
+}
+
+.footerLogo{
+    width: 300px;
+}
+
+.containerLogoEmpresa{
+    margin-top: 10px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #182D8B; */
+}
+
+.nomeEmpresa{
+    margin-top: -10px;
+    font-family: Poppins;
+    font-weight: 350;
+    font-size: 20px;
+    color: #9c9c9c;
+}
+
+.infosEmpresa{
+    font-size: 15px;
+    margin-top: -15px;
+    font-family: Poppins;
+    font-weight: 350;
+    font-size: 15px;
+    color: #9c9c9c;
+}
